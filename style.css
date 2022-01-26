@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap");
+
+/* Estilos generales */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Montserrat";
+}
+
+body {
+  background-color: rgb(128, 128, 128);
+}
+
+/* Textos principales */
+
+h1 {
+  font-family: "Bebas Neue";
+  font-size: 5em;
+  text-align: center;
+  padding: 80px 0;
+}
+
+h3 {
+  font-size: xx-large;
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  background-color: #1c1c1c;
+  width: 100%;
+  height: 3em;
+  position: absolute;
+  bottom: 0;
+}
+
+footer h6,
+a {
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+  padding-top: 2px;
+  font-weight: 500;
+}
