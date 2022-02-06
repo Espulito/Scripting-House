@@ -46,3 +46,15 @@ a {
   padding-top: 2px;
   font-weight: 500;
 }
+
+/* ScrollBar */
+
+::-webkit-scrollbar {
+  background-color: #9b9b9b;
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1c1c1c;
+  border-radius: 0.25em;
+}
